@@ -7,4 +7,4 @@ image: "images/author.jpg"
 
 ### Hello, I’m **Satyajeet**
 
-By proffesion, I am a software engineer and a travel enthusiast by passion who loves to explore new places and capture the moments with my lens. 
+By profession, I'm a software engineer and a travel enthusiast by passion who loves to explore new places and capture the moments with my lens.

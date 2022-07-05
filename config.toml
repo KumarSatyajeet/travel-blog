@@ -54,16 +54,6 @@ url = ""
 weight = 1
 hasChildren = true
 
-# [[menu.main]]
-# parent = "Homepage"
-# name = "Homepage 1"
-# url = "homepage/home-1/"
-
-# [[menu.main]]
-# parent = "Homepage"
-# name = "Homepage 2"
-# url = "homepage/home-2/"
-
 [[menu.main]]
 name = "About"
 url = "about/"
@@ -76,7 +66,7 @@ weight = 2
 
 # deult parameter
 [params]
-logo = "images/logo.png"
+logo = "static/images/logo.jpg"
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
 layout = "1"
@@ -106,18 +96,22 @@ access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1Nmpx
 
 # cookies
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
 
 # social site
 [[params.social]]
 icon = "ti-facebook"
-link = ""
+link = "https://www.facebook.com/kumarsatyajeetvlogs"
 
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
+link = "https://twitter.com/kumarsatyajeet0?s=11&t=1tHAZKVqbJHGKCtZZWqRnA"
 
 [[params.social]]
-icon = "ti-linkedin"
-link = "#"
+icon = "ti-instagram"
+link = "https://instagram.com/the_satyajeet?igshid=YmMyMTA2M2Y="
+
+[[params.social]]
+icon = "ti-youtube"
+link = "https://www.youtube.com/c/KumarSatyajeet"
