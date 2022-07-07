@@ -59,14 +59,14 @@ name = "Explore"
 url = "explore/"
 weight = 2
 
-# [[menu.main]]
-# name = "Contact"
-# url = "contact/"
-# weight = 3
+ [[menu.main]]
+ name = "Contact"
+ url = "contact/"
+ weight = 3
 
 # deult parameter
 [params]
-logo = "../../images/logo.svg"
+logo = "../../images/logo_2.svg"
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
 layout = "1"

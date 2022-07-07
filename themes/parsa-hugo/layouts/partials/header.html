@@ -1,4 +1,4 @@
-<header class="navigation">
+<header class="navigation bg-light">
   <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="{{site.BaseURL}}"><img class="img-fluid" width="150px" src="{{ site.Params.logo | absURL }}"
         alt="{{site.Title}}"></a>
@@ -24,7 +24,7 @@
         </li>
         {{ else }}
         <li class="nav-item px-2">
-          <a class="nav-link text-uppercase text-dark" href="{{ .URL | absURL }}">{{ .Name }}</a>
+          <a class="nav-link text-uppercase text-dark text-menu" href="{{ .URL | absURL }}">{{ .Name }}</a>
         </li>
         {{ end }}
         {{ end }}
