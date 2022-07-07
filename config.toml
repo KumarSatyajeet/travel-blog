@@ -1,5 +1,5 @@
 # default config
-baseurl = "http://explorewithme.in/"
+baseurl = "https://explorewithme.in/"
 languageCode = "en-us"
 title = "Explore With Me | A Travel Blog By Satyajeet"
 theme = "parsa-hugo"
@@ -66,7 +66,7 @@ weight = 2
 
 # deult parameter
 [params]
-logo = "images/logo.svg"
+logo = "../../images/logo.svg"
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
 layout = "1"
@@ -96,7 +96,7 @@ access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1Nmpx
 
 # cookies
 [params.cookies]
-enable = false
+enable = true
 expire_days = 2
 
 # social site
