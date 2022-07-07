@@ -2,7 +2,7 @@
 title: "Chandipur"
 date: 2022-06-27T14:46:10+05:30
 description: "This is meta description"
-type: "featured"
+type: "post"
 image: "images/featured-post/Chandipur/1.jpg" 
 categories:
   - "Where the sea disappears"

@@ -2,7 +2,7 @@
 title: "Mahendragiri"
 date: 2022-06-27T14:46:10+05:30
 description: "This is meta description"
-type: "featured"
+type: "post"
 image: "images/featured-post/Mahendragiri/1.jpg" 
 categories:
   - "4th Highest Peak Of Odisha"

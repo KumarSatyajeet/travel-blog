@@ -1,28 +1,28 @@
-<footer class="bg-secondary">
-  <div class="section">
+
+<footer class="bg-light pt-3 pb-3 px-3">
+  <!-- <div class="section">
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           <a href="{{site.BaseURL}}">
-            <!--<img src="{{site.Params.logo | absURL }}" alt="{{site.Title}}"
-              class="img-fluid"></a> -->
-            Explore With Me
+            <img src="{{site.Params.logo | absURL }}" alt="{{site.Title}}"
+              class="img-fluid"></a>
         </div>
-        <!-- <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           {{ if .Site.Params.address }}
           <h6>Address</h6>
           <ul class="list-unstyled">
             <li class="font-secondary text-dark">{{site.Params.address | markdownify }}</li>
           </ul>
           {{ end }}
-        </div> -->
+        </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           {{ if or .Site.Params.mobile .Site.Params.email }}
           <h6>Contact Info</h6>
           <ul class="list-unstyled">
-            <!-- {{ if .Site.Params.mobile }}
+            {{ if .Site.Params.mobile }}
             <li class="font-secondary text-dark">Tel : {{ .Site.Params.mobile | markdownify }}</li>
-            {{ end }} -->
+            {{ end }}
             {{ if .Site.Params.email }}
             <li class="font-secondary text-dark">Email : {{ .Site.Params.email | markdownify }}</li>
             {{ end }}
@@ -40,10 +40,20 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="text-center pb-3">
-    <p class="mb-0">{{ site.Params.copyright | markdownify }}</p>
-  </div>
+  </div> -->
+  <!-- <div class="text-right mx-5 pt-3 pb-3"> -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="{{site.BaseURL}}"><img class="img-fluid" width="100px" src="images/logo_2.svg"
+          alt="{{site.Title}}"></a>
+          <div class="mx-1 text-right">{{ site.Params.copyright | markdownify }}</div>
+    </nav>
+    <!-- <div class="col-md-3 col-sm-6 mb-4 mb-md-0">{{ site.Params.copyright | markdownify }} by 
+      <a href="{{site.BaseURL}}">
+        Explore With Me</a>
+    </div> -->
+    <!-- <p class="mb-0">{{ site.Params.copyright | markdownify }}</p> -->
+  
+  <!-- </div> -->
 </footer>
 
 <!-- JS Plugins -->
@@ -90,10 +100,10 @@
     bottom: 0;
     text-align: center;
     z-index: 9999;
-    padding: 1rem 2rem;
-    background: rgb(71, 71, 71);
+    padding: 5px 5px;
+    background: rgb(233, 247, 239);
     transition: all .75s cubic-bezier(.19, 1, .22, 1);
-    color: #fdfdfd;
+    color: #E9F7EF;
   }
 
   .cookie-box-hide {
