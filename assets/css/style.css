@@ -873,3 +873,15 @@ blockquote {
   width: 200px;
   object-fit: cover;
 }
+
+
+.summary-wrapper {
+  max-width: 100%;
+}
+
+.summary {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
