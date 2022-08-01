@@ -59,17 +59,17 @@ name = "Explore"
 url = "explore/"
 weight = 2
 
- [[menu.main]]
- name = "Contact"
- url = "contact/"
- weight = 3
+ #[[menu.main]]
+ #name = "Contact"
+ #url = "contact/"
+ #weight = 3
 
 # deult parameter
 [params]
 logo = "../../images/logo_2.svg"
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
-layout = "1"
+layout = "2"
 # Meta data
 description = "This is meta description"
 # Preloader
@@ -79,7 +79,7 @@ search = false
 # about author
 author = "Satyajeet"
 author_image = "images/banner-img.jpg"
-bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+bio = "I’m a Software engineer based out of Bangalore. I love places that make you realize how tiny you and your problems are."
 # Contact info
 # mobile = "+90 000 333 22"
 email = "exmaple@ymail.com"
@@ -91,7 +91,7 @@ copyright = "&copy; 2022"
 
 # Instagram feed
 [params.instafeed]
-enable = false
+enable = true
 access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
 
 # cookies
