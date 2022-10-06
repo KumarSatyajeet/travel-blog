@@ -208,7 +208,7 @@ body {
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #ff6f00;
+  background: #80aaed;
   border-radius: 50%;
 }
 
@@ -337,7 +337,8 @@ a.text-dark:hover {
 }
 
 .bg-olive{
-  background: #edf8f8 !important;
+  /* background: #8DC1CA !important; */
+  background-color: #be9a7e !important;
 }
 
 .bg-primary {
