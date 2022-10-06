@@ -1,4 +1,4 @@
 ---
-title: "Homepage 2"
+title: "Explore"
 layout: "2"
 ---
