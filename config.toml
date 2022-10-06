@@ -32,21 +32,8 @@ link = "plugins/bootstrap/bootstrap.min.js"
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "plugins/headroom/headroom.js"
-[[params.plugins.js]]
-link = "plugins/instafeed/instafeed.min.js"
-https://www.instagram.com/p/CLhcC3MlFSy/?utm_source=ig_embed&amp%3Butm_campaign=loading
-https://www.instagram.com/p/CVvDVDOP6Jb/?utm_source=ig_embed&amp;utm_campaign=loading
-https://www.instagram.com/p/CZG6SZrFq_D/?utm_source=ig_embed&amp%3Butm_campaign=loading
-https://www.instagram.com/p/CTwh2wKl-4P/?utm_source=ig_embed&amp%3Butm_campaign=loading
-https://www.instagram.com/p/CS57Ie8jdNf/?utm_source=ig_embed&amp%3Butm_campaign=loading
-https://www.instagram.com/p/CT1K9VFFaLi/?utm_source=ig_embed&amp%3Butm_campaign=loading
-https://www.instagram.com/p/CS19xH8Fv07/?utm_source=ig_embed&amp%3Butm_campaign=loading
-https://www.instagram.com/p/B2s1c3IF3Y2/?utm_source=ig_embed&amp%3Butm_campaign=loading
-https://www.instagram.com/p/BkKWFTwFYoi/?utm_source=ig_embed&amp%3Butm_campaign=loading
-https://www.instagram.com/p/ChT0cV8P14Q/?utm_source=ig_embed&amp%3Butm_campaign=loading
-https://www.instagram.com/p/ChY6Ccxj-3c/?utm_source=ig_embed&amp%3Butm_campaign=loading
-
-
+# [[params.plugins.js]]
+# link = "plugins/instafeed/instafeed.min.js"
 [[params.plugins.js]]
 link = "plugins/masonry/masonry.js"
 [[params.plugins.js]]
@@ -71,11 +58,13 @@ hasChildren = true
 name = "Explore"
 url = "explore/"
 weight = 2
+hasChildren=true
 
  #[[menu.main]]
  #name = "Contact"
  #url = "contact/"
  #weight = 3
+
 
 # deult parameter
 [params]
