@@ -55,6 +55,11 @@ weight = 1
 hasChildren = true
 
 [[menu.main]]
+# parent = "Homepage"
+name = "Explore"
+url = "homepage/home-2/"
+
+[[menu.main]]
 name = "Explore"
 url = "explore/"
 weight = 2
@@ -71,7 +76,7 @@ hasChildren=true
 logo = "../../images/logo_2.svg"
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
-layout = "2"
+layout = "1"
 # Meta data
 description = "This is meta description"
 # Preloader
